@@ -11,7 +11,6 @@ import chillhop from "./data";
 import { playAudio } from "./util";
 
 function App() {
-  //Ref
   const audioRef = useRef(null);
 
   const [songs, setSongs] = useState(chillhop());
